@@ -1,1 +1,32 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 400px;
+  height: 550px;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 4%;
+}
+
+#firstEmoji {
+  margin-left: 1rem;
+  font-size: 6rem;
+}
+#secondEmoji {
+  margin-right: 1rem;
+  font-size: 6rem;
+  text-align: end;
+}
+
+#number {
+  font-size: 10rem;
+  text-align: center;
+}
